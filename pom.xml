@@ -20,6 +20,8 @@
     </properties>
 
     <modules>
+        <module>config-service</module>
+        <module>eureka-service</module>
         <module>account-service</module>
     </modules>
 
