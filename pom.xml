@@ -23,6 +23,8 @@
         <module>config-service</module>
         <module>eureka-service</module>
         <module>account-service</module>
+        <module>transaction-service</module>
+        <module>gateway-service</module>
     </modules>
 
     <dependencyManagement>
