@@ -1,6 +1,6 @@
-
 server:
   port: 8081
+
 spring:
   application:
     name: account-service
@@ -12,8 +12,8 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-  config:
-    import: optional:configserver:http://localhost:8888
+    show-sql: true
+
 eureka:
   client:
     service-url:
